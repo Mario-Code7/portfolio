@@ -81,7 +81,7 @@ public class FinanceApplication {
                     int yearBuilt = myScanner.nextInt();
                     System.out.print("Enter square feet: ");
                     int squareFeet = myScanner.nextInt();
-                    System.out.print("Enter number of bedrooms");
+                    System.out.print("Enter number of bedrooms: ");
                     int bedrooms = myScanner.nextInt();
                     portfolio.addAsset(new House(name, marketValue, yearBuilt, squareFeet, bedrooms));
                     break;
